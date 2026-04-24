@@ -24,7 +24,7 @@ public class ListarVehiculosView extends javax.swing.JFrame {
         for(VehiculoViewModel vehiculo : vehiculos){
             ((DefaultTableModel)vehiculosGrid.getModel()).addRow(new Object[] {
                 vehiculo.getPatente(),
-                vehiculo.getVehiculo(),
+                vehiculo.getMarca().getNombre(),
                 vehiculo.getTipo(),
                 vehiculo.getSucursal(),
                 vehiculo.getCapacidadCarga(),
