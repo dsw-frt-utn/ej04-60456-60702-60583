@@ -12,3 +12,4 @@ app\Program.class
 views\VehiculoViewModel.class
 views\ListarVehiculosView.class
 domain\Sucursal.class
+domain\VehiculoTipo.class

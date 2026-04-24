@@ -17,6 +17,7 @@ public class Controlador {
         return vehiculos;
     }
     
+    
     public static double[] calcularConsumos(Map<String, Double> vehiculos){
         double consumoElectricos = 0;
         double consumoCombustible= 0;
@@ -31,4 +32,10 @@ public class Controlador {
         }
         return new double[] {consumoElectricos, consumoCombustible};
     }
+    
+    public static void agregarVehiculo(Vehiculo v){
+        data.Persistencia.agregarVehiculo(v);
+    }
+    
+    
 }

@@ -248,7 +248,7 @@ public class AgregarVehiculo extends javax.swing.JFrame {
             }
             
             // 5. Guardar en Memoria y avisar al usuario
-            data.Persistencia.agregarVehiculo(nuevoVehiculo);
+            Controlador.agregarVehiculo(nuevoVehiculo);
             javax.swing.JOptionPane.showMessageDialog(this, "¡Vehículo guardado exitosamente!");
             
             // 6. Cerrar la ventana actual
